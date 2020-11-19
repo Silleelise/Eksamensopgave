@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-19T12:36:50.558Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.3 Safari/605.1.15" etag="FxGSwjk2CbhRBCCq9Y6l" version="13.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-19T13:14:05.220Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.3 Safari/605.1.15" etag="maTyPSaW5FQ13YFTklq3" version="13.9.1" type="github">
   <diagram id="91NTg6CBFVuBU03nsibF" name="Page-1">
-    <mxGraphModel dx="723" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="441" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="QkMjiTJ0U1tiHb3Td_XO-2" value="Primary key: userID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QkMjiTJ0U1tiHb3Td_XO-1">
           <mxGeometry y="26" width="130" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="QkMjiTJ0U1tiHb3Td_XO-3" value="firstName: string&#xa;lastName: string&#xa;birthDate: integer&#xa;gender: string &#xa;aboutMe: string&#xa;__________________&#xa;&#xa;create&#xa;read &#xa;update&#xa;delete &#xa;&#xa;storeUserMatches&#xa;removeUserMatches&#xa;&#xa;login &#xa;stayLoggedIn&#xa;logout&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QkMjiTJ0U1tiHb3Td_XO-1">
+        <mxCell id="QkMjiTJ0U1tiHb3Td_XO-3" value="firstName: string&#xa;lastName: string&#xa;birthYear: integer&#xa;gender: string &#xa;aboutMe: string&#xa;__________________&#xa;&#xa;create&#xa;read &#xa;update&#xa;delete &#xa;&#xa;storeUserMatches&#xa;removeUserMatches&#xa;&#xa;login &#xa;stayLoggedIn&#xa;logout&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QkMjiTJ0U1tiHb3Td_XO-1">
           <mxGeometry y="52" width="130" height="268" as="geometry" />
         </mxCell>
         <mxCell id="QkMjiTJ0U1tiHb3Td_XO-4" value="Match" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
