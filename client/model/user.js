@@ -17,3 +17,7 @@ class user {
     this.password = passwor;
   }
 }
+
+function calculateAge(birthYear) {
+  return 2020 - birthYear;
+}
