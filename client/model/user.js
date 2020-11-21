@@ -14,10 +14,12 @@ class user {
     this.gender = gender;
     this.aboutMe = aboutMe;
     this.email = email;
-    this.password = passwor;
+    this.password = password;
   }
 }
 
 function calculateAge(birthYear) {
   return 2020 - birthYear;
 }
+
+module.exports = user;
