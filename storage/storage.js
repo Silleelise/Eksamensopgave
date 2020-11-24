@@ -41,3 +41,20 @@ function store() {
   localStorage.setItem("gender", gender);
   localStorage.setItem("interest", interest);
 }
+// check if stored data from register-form is equal to entered data in the   login-form
+function check() {
+  // stored data from the register-form
+  var storedEmail = localStorage.getItem("email");
+  var storedPw = localStorage.getItem("pw");
+
+  // entered data from the login-form
+  var userEmail = document.getElementById("useremail");
+  var userPw = document.getElementById("userpw");
+
+  // check if stored data from register-form is equal to data from login form
+  if (userEmail.value == storedEmail && userPw.value == storedPw) {
+    alert("You are logged in.");
+  } else {
+    alert("ERROR.");
+  }
+}
