@@ -1,3 +1,4 @@
+/*
 const express = require("express"); //Importerer express pakke
 const app = express(); //eksikverer express//Gemmer
 const PORT = process.env.port || 4000; //sætter serveren til at lytte på port 4000
